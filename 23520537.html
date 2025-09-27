@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        nav, footer {
+            background-color: #d4f2f4;
+            color: #0b0848;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0b0848;
+            font-weight: bold;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+    <nav>
+        <a href="#gioithieu">Giới thiệu bản thân</a>
+        <a href="#lienhe">Gửi thông tin và giao lưu cùng tôi</a>
+    </nav>
+
+    <div id="gioithieu">
+    <h1> Giới thiệu bản thân </h1>
+
+    <h2> Thông tin cơ bản </h2>
+    <ul>
+        <li> Tên: Phạm Duy Hoàng </li>
+        <li> Năm sinh: 2005 </li>
+        <li> Chuyên nghành: Hệ thống thông tin </li>
+    </ul>
+
+    <h2> Sở thích </h2>
+    <h3> Món ăn </h3>
+
+    <ol>
+        <li> Bún bò </li>
+        <li> Bánh mì bò kho </li>
+        <li> Hủ tiếu </li>
+    </ol>
+
+    <h2> Giải trí </h2>
+    <h3> Trò chơi </h3>
+    <ul>
+        <li> Valorant </li>
+        <li> League of legends </li>
+        <li> FC Online 4 </li>
+    </ul>
+
+    <h3> Bài nhạc yêu thích </h3>
+    <ul>
+        <li> Show me love_MCK </li>
+        <li> Như vậy nhé_Lil wuyn </li>
+        <li> No days off_Wrxdie </li>
+    </ul>
+
+    <table>
+        <th> Mục tiêu của bản thân </th>
+        <tr>
+            <td> Mục tiêu </td>
+            <td> Thời gian </td>
+            <td> Hoàn thành </td>
+        </tr>
+
+        <tr>
+            <td> Trung bình điểm web 8.0 </td>
+            <td> DD/MM/YYYY </td>
+            <td> <input type="checkbox"> </td>
+        </tr>
+
+        <tr>
+            <td> Đạt chứng chỉ ngoại ngữ đủ tốt nghiệp </td>
+            <td> DD/MM/YYYY </td>
+            <td> <input type="checkbox"> </td>
+        </tr>
+
+        <tr>
+            <td> Chọn được công ty với vị trí full-stack </td>
+            <td> DD/MM/YYYY </td>
+            <td> <input type="checkbox"> </td>
+        </tr>
+
+    </table>
+    </div>
+    
+    <div id="lienhe">
+    <h1> Gửi thông tin và giao lưu cùng tôi </h1>
+    <table>
+    <tr>
+      <td>Họ và tên:</td>
+      <td><input type="text"></td>
+    </tr>
+
+    <tr>
+      <td>Email:</td>
+      <td><input type="text"></td>
+    </tr>
+
+    <tr>
+      <td>Tin nhắn:</td>
+    </tr>
+    <tr>
+    <td colspan="2">
+        <textarea rows="5" cols="50"></textarea>
+      </td>
+    </tr>
+
+    <tr>
+        <td> Giới tính: </td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+            <input type="radio" name="gioitinh" value="Nam"> Nam
+            <input type="radio" name="gioitinh" value="Nu"> Nữ
+        </td>
+    </tr>
+
+    <tr>
+        <td> Sở thích: </td>
+    </tr>
+
+    <tr>
+        <td colspan="3">
+            <input type="checkbox" name="sothich" value="Nghe nhạc"> Nghe nhạc
+            <input type="checkbox" name="sothich" value="Bơi lội"> Bơi lội
+            <input type="checkbox" name="sothich" value="Biển"> Biển
+        </td>
+    </tr>
+
+    <tr>
+        <td> Ngành: </td>
+        <td>
+            <select name="nganh">
+                <option value="khmt">Khoa học máy tính </option>
+                <option value="cntt">Công nghệ Thông tin</option>
+                <option value="ktpm">Kỹ thuật phần mềm </option>
+            </select>
+        </td>
+    </tr>
+    
+    <tr>
+        <td> <input type="submit" value="Gửi"> </td>
+    </tr>
+        
+    </table>
+    </div>
+
+    <footer>
+        <p> @2024 23520537 Phạm Duy Hoàng </p>
+    </footer>
+</body>
+</html>
