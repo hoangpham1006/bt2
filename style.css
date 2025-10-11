@@ -1,8 +1,64 @@
-h1 {
-    background-color: #F3FDE8;
-    color: #7fc6ea;
+nav, footer {
+            background-color: #d4f2f4;
+            color: #0b0848;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0b0848;
+            font-weight: bold;
+        }
+        footer p {
+            margin: 0;
+        }
+
+img {
+  display: block;
+  margin: 0 auto;
 }
 
-table {
-    border: 1px solid black;
+.muctieu {
+  width: 70%;
+  margin: 20px auto;              
+  padding: 20px;
+  border: 2px solid #0b0848;      
+  border-radius: 10px;            
+  background-color: #f8fbfc;      
+}
+
+/* Bảng bên trong */
+.muctieu table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+/* Ô trong bảng */ 
+.muctieu td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Hàng xen kẽ màu cho dễ nhìn */
+.muctieu tr:nth-child(even) {
+  background-color: #eef7f8;
+}
+
+/* Khung bao quanh form liên hệ */
+.lienhe-container {
+  width: 70%;
+  margin: 30px auto;              /* canh giữa trang */
+  padding: 20px;
+  border: 2px solid #0b0848;      /* viền đậm */
+  border-radius: 10px;            /* bo góc nhẹ */
+  background-color: #f8fbfc;      /* nền nhạt */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* đổ bóng nhẹ */
+}
+
+/* Canh giữa nội dung form */
+.lienhe-container table {
+  margin: 0 auto;
+  width: 100%;
 }
